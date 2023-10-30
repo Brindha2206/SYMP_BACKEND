@@ -1,0 +1,28 @@
+GET http://localhost:1995/fetch
+
+POST http://localhost:1995/new
+content-type: application/json
+
+{
+    "ID":73,
+    "Department":"AIDS",
+    "Completion_year":"2025",
+    "Event_Name":"CoDE_Ideas",
+    "Event_Date":"2023-11-10",
+    "Venue":"AI_LAB",
+    "student_name":"Saya"
+
+}
+ 
+
+PUT http://localhost:1995/change/45
+Content-Type: application/json
+
+{
+    "Event_name":"Electricals",
+    "Venue":"AI_LAB"
+}
+
+DELETE http://localhost:1995/delkey/73
+
+
